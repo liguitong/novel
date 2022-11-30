@@ -1,0 +1,3 @@
+application.version=${application.version}
+author::liguitong
+spring version :: ${spring-boot.version}

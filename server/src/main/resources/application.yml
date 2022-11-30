@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:Lgt_123@192.168.200.130:27017/novel

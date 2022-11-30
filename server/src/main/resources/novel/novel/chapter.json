@@ -1,0 +1,24 @@
+{ 
+    "_id" : NumberInt(0), 
+    "chapterId" : NumberInt(1), 
+    "chapterName" : "第一章 开始", 
+    "novelId" : NumberInt(1), 
+    "content" : "这是一个黑暗开始的年代。", 
+    "_class" : "com.lgt.beans.Chapter"
+}
+{ 
+    "_id" : 1.0, 
+    "chapterId" : 2.0, 
+    "chapterName" : "第一章 结束", 
+    "novelId" : 1.0, 
+    "content" : "这是一个光明开始的年代。", 
+    "_class" : "com.lgt.beans.Chapter"
+}
+{ 
+    "_id" : 2.0, 
+    "chapterId" : 3.0, 
+    "chapterName" : "第三章 无言", 
+    "novelId" : 1.0, 
+    "content" : "所有都已经线束！", 
+    "_class" : "com.lgt.beans.Chapter"
+}

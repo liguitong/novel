@@ -24,7 +24,7 @@ allprojects {
             url "$repourl/maven-public/"
         }
     }
-    version = '1.0.0' + (project.property('snapshot') == "true" ? "-SNAPSHOT" : "")
+    version = '1.0.1' + (project.property('snapshot') == "true" ? "-SNAPSHOT" : "")
 }
 subprojects {
     apply plugin: 'java'

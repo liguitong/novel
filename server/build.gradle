@@ -24,9 +24,15 @@ dependencies {
 }
 
 docker {
+    url = 'unix:///var/run/docker.sock'
     springBootApplication {
         baseImage = 'openjdk:8-jdk-alpine'
-        images = ["liguitong/$rootProject.name/$project.name:$project.version", "liguitong/$rootProject.name/$project.name::latest"]
+        images = ["liguitong/$rootProject.name-$project.name:$project.version", "liguitong/$rootProject.name-$project.name:latest"]
+    }
+    registryCredentials {
+        url = 'https://hub.docker.com/'
+        username = 'liguitong'
+        password = 'Lgt_123456'
     }
 }
 

@@ -1,3 +1,11 @@
+db.novel.insert({
+    "_id" : NumberInt(1),
+    "name" : "test",
+    "author" : "lgt",
+    "description" : "this is a wonderful novel!",
+    "_class" : "com.lgt.beans.Novel"
+}
+)
 db.chapter.find({"novelId":1})
 db.chapter.find()
 db.chapter.remove({"chapterId":3})

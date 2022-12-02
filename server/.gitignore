@@ -4,3 +4,4 @@
 target
 *.gz
 logs
+build

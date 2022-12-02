@@ -1,3 +1,6 @@
+use novel
+db.createCollection('novel')
+db.createCollection('chapter')
 db.novel.insert({
     "_id" : NumberInt(1),
     "name" : "test",

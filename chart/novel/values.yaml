@@ -8,7 +8,7 @@ image:
   repository: liguitong/novel-server
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.0.1-SNAPSHOT"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -47,7 +47,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: novel.lgt.org
+    - host: 19ao789800.imdo.co
       paths:
         - path: /
           pathType: ImplementationSpecific

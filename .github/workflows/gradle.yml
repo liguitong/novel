@@ -32,3 +32,5 @@ jobs:
       uses: gradle/gradle-build-action@v2
     - name: Execute gradle build
       run: gradle build -x test
+    - name: push image
+      run: gradle dockerPushImage
